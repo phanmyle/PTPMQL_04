@@ -1,0 +1,15 @@
+@model MVC.Models.DiemModel
+
+@{
+    ViewBag.Title = "Tính điểm môn học";
+}
+@using (Html.BeginForm("Index", "Diem", FormMethod.Post))
+{
+<h2>Tính điểm môn học</h2>
+<form asp-action="Index">
+    <input type=" text" name=" Điểm A">
+    <input type=" text" name=" Điểm B">
+    <input type=" text" name=" Điểm C">
+    <input type="submit" name=" Tính điểm">
+</form>
+}

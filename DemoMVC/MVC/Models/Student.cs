@@ -4,6 +4,6 @@ namespace MVC.Models
     {
         public string StudentID { get; set; }
         public string Class { get; set; }
-        public string  CCourse { get; set; }
+        public string  Course { get; set; }
     }
 }
